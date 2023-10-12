@@ -1,4 +1,5 @@
 ﻿using Group3FinalProject.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -13,7 +14,8 @@ namespace Group3FinalProject.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+		[Authorize]
+		public IActionResult Index()
         {
             return View();
         }
@@ -23,7 +25,17 @@ namespace Group3FinalProject.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+		public IActionResult Login()
+		{
+			return View();
+		}
+
+		public IActionResult Register()
+		{
+			return View();
+		}
+
+		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

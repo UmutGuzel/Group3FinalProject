@@ -13,6 +13,30 @@
 
   <ItemGroup>
     <None Include="Views\Shared\Index.cshtml" />
+    <None Include="wwwroot\admin\js\admin.js" />
+    <None Include="wwwroot\admin\js\functions.js" />
+    <None Include="wwwroot\admin\js\jquery.min.js" />
+    <None Include="wwwroot\admin\vendors\bootstrap-select\bootstrap-select.min.js" />
+    <None Include="wwwroot\admin\vendors\bootstrap-touchspin\jquery.bootstrap-touchspin.js" />
+    <None Include="wwwroot\admin\vendors\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\admin\vendors\bootstrap\js\popper.min.js" />
+    <None Include="wwwroot\admin\vendors\calendar\fullcalendar.js" />
+    <None Include="wwwroot\admin\vendors\calendar\moment.min.js" />
+    <None Include="wwwroot\admin\vendors\chart\chart.min.js" />
+    <None Include="wwwroot\admin\vendors\counter\counterup.min.js" />
+    <None Include="wwwroot\admin\vendors\counter\waypoints-min.js" />
+    <None Include="wwwroot\admin\vendors\file-upload\imageuploadify.min.js" />
+    <None Include="wwwroot\admin\vendors\fontawesome\fonts\fontawesome-webfont3e6e.svg" />
+    <None Include="wwwroot\admin\vendors\fontawesome\fonts\fontawesome-webfont3e6e.woff2" />
+    <None Include="wwwroot\admin\vendors\imagesloaded\imagesloaded.js" />
+    <None Include="wwwroot\admin\vendors\magnific-popup\magnific-popup.js" />
+    <None Include="wwwroot\admin\vendors\masonry\filter.js" />
+    <None Include="wwwroot\admin\vendors\masonry\masonry.js" />
+    <None Include="wwwroot\admin\vendors\owl-carousel\owl.carousel.js" />
+    <None Include="wwwroot\admin\vendors\scroll\scrollbar.min.js" />
+    <None Include="wwwroot\admin\vendors\summernote\summernote.js" />
+    <None Include="wwwroot\admin\vendors\switcher\switcher.js" />
+    <None Include="wwwroot\admin\vendors\themify\fonts\themify9f24.svg" />
     <None Include="wwwroot\images\flag\united-kingdom.svg" />
     <None Include="wwwroot\images\flag\united-states-of-america.svg" />
     <None Include="wwwroot\js\contact.js" />
@@ -58,6 +82,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\admin\assets\images\" />
+    <Folder Include="wwwroot\admin\images\flag\" />
     <Folder Include="wwwroot\images\main-slider\" />
   </ItemGroup>
 

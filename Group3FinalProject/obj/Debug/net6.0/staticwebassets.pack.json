@@ -5,6 +5,342 @@
       "PackagePath": "staticwebassets\\Group3FinalProject.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\assets.css",
+      "PackagePath": "staticwebassets\\admin\\css\\assets.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\color\\color-1.css",
+      "PackagePath": "staticwebassets\\admin\\css\\color\\color-1.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\admin\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\accordion.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\accordion.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\alert.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\alert.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\breadcrumb.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\breadcrumb.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\button.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\button.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\divider.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\divider.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\form.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\form.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\icon-box.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\icon-box.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\layout.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\list.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\list.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\overlay.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\overlay.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\owl.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\pagination.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\pagination.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\pricingtable.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\pricingtable.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\separator.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\separator.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\shortcodes.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\shortcodes.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\shortcodes\\widget.css",
+      "PackagePath": "staticwebassets\\admin\\css\\shortcodes\\widget.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\css\\typography.css",
+      "PackagePath": "staticwebassets\\admin\\css\\typography.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\about\\pic1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\about\\pic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\courses\\pic1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\courses\\pic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\courses\\pic2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\courses\\pic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\courses\\pic3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\courses\\pic3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\courses\\pic4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\courses\\pic4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\courses\\pic6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\courses\\pic6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\courses\\pic7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\courses\\pic7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\courses\\pic8.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\courses\\pic8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\courses\\pic9.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\courses\\pic9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\admin\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\logo-mobile.png",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\logo-white.png",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\logo.png",
+      "PackagePath": "staticwebassets\\admin\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\testimonials\\pic1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\testimonials\\pic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\testimonials\\pic2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\testimonials\\pic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\images\\testimonials\\pic3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\testimonials\\pic3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\js\\admin.js",
+      "PackagePath": "staticwebassets\\admin\\js\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\js\\functions.js",
+      "PackagePath": "staticwebassets\\admin\\js\\functions.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\bootstrap-select\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\bootstrap-select\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\bootstrap-select\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\bootstrap-select\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\bootstrap-touchspin\\jquery.bootstrap-touchspin.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\bootstrap-touchspin\\jquery.bootstrap-touchspin.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\calendar\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\calendar\\fullcalendar.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\calendar\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\calendar\\fullcalendar.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\calendar\\moment.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\calendar\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\counter\\counterup.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\counter\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\counter\\waypoints-min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\counter\\waypoints-min.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\file-upload\\imageuploadify.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\file-upload\\imageuploadify.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\file-upload\\imageuploadify.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\file-upload\\imageuploadify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\fontawesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\fontawesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\admin\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\admin\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\admin\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendors\\fontawesome\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\fontawesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\admin\\vendors\\fontawesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\imagesloaded\\imagesloaded.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\imagesloaded\\imagesloaded.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\magnific-popup\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\magnific-popup\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\magnific-popup\\magnific-popup.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\magnific-popup\\magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\masonry\\filter.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\masonry\\filter.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\owl-carousel\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\owl-carousel\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\owl-carousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\owl-carousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\scroll\\scrollbar.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\scroll\\scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\scroll\\scrollbar.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\scroll\\scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\summernote\\font\\summernotec360.eot",
+      "PackagePath": "staticwebassets\\admin\\vendors\\summernote\\font\\summernotec360.eot"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\summernote\\font\\summernotec360.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendors\\summernote\\font\\summernotec360.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\summernote\\font\\summernotec360.woff",
+      "PackagePath": "staticwebassets\\admin\\vendors\\summernote\\font\\summernotec360.woff"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\summernote\\summernote.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\summernote\\summernote.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\summernote\\summernote.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\summernote\\summernote.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\switcher\\switcher.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\switcher\\switcher.css"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\switcher\\switcher.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\switcher\\switcher.js"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\themify\\fonts\\themify9f24.eot",
+      "PackagePath": "staticwebassets\\admin\\vendors\\themify\\fonts\\themify9f24.eot"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\themify\\fonts\\themify9f24.svg",
+      "PackagePath": "staticwebassets\\admin\\vendors\\themify\\fonts\\themify9f24.svg"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\themify\\fonts\\themify9f24.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendors\\themify\\fonts\\themify9f24.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\themify\\fonts\\themify9f24.woff",
+      "PackagePath": "staticwebassets\\admin\\vendors\\themify\\fonts\\themify9f24.woff"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\themify\\fonts\\themifyd41d.eot",
+      "PackagePath": "staticwebassets\\admin\\vendors\\themify\\fonts\\themifyd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\admin\\vendors\\themify\\themify-icons.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\themify\\themify-icons.css"
+    },
+    {
       "Id": "C:\\Users\\Umut\\Desktop\\Elev8Project\\Group3FinalProject\\Group3FinalProject\\wwwroot\\css\\assets.css",
       "PackagePath": "staticwebassets\\css\\assets.css"
     },

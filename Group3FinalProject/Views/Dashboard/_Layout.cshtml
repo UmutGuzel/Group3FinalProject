@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- FAVICONS ICON ============================================= -->
+	<link rel="icon" href="../error-404.html" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="~/images/favicon.png" />
+
+	<!-- PAGE TITLE HERE ============================================= -->
+	<title>EduChamp : Education HTML Template </title>
+
+	<!-- MOBILE SPECIFIC ============================================= -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.min.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+	<!-- All PLUGINS CSS ============================================= -->
+	<link rel="stylesheet" type="text/css" href="~/admin/css/assets.css">
+	<link rel="stylesheet" type="text/css" href="~/admin/vendors/calendar/fullcalendar.css">
+
+	<!-- TYPOGRAPHY ============================================= -->
+	<link rel="stylesheet" type="text/css" href="~/admin/css/typography.css">
+
+	<!-- SHORTCODES ============================================= -->
+	<link rel="stylesheet" type="text/css" href="~/admin/css/shortcodes/shortcodes.css">
+
+	<!-- STYLESHEETS ============================================= -->
+	<link rel="stylesheet" type="text/css" href="~/admin/css/style.css">
+	<link rel="stylesheet" type="text/css" href="~/admin/css/dashboard.css">
+	<link class="skin" rel="stylesheet" type="text/css" href="~/admin/css/color/color-1.css">
+
+
+</head>
+<body>
+
+	<!-- header start -->
+	<header class="ttr-header">
+		<div class="ttr-header-wrapper">
+			<!--logo start -->
+			<div class="ttr-logo-box">
+				<div>
+					<a asp-controller="Dashboard" asp-action="Index" class="ttr-logo">
+						<img class="ttr-logo-mobile" alt="" src="~/admin/images/logo-mobile.png" width="30" height="30">
+						<img class="ttr-logo-desktop" alt="" src="~/admin/images/logo-white.png" width="160" height="27">
+					</a>
+				</div>
+			</div>
+			<!--logo end -->
+			<div class="ttr-header-menu">
+				<!-- header left menu start -->
+				<ul class="ttr-header-navigation">
+					<li>
+						<a asp-controller="Home" asp-action="Index" class="ttr-material-button ttr-submenu-toggle">HOME</a>
+					</li>
+					<li>
+						<a asp-controller="Dashboard" asp-action="Courses" class="ttr-material-button ttr-submenu-toggle">COURSES</a>
+					</li>
+				</ul>
+				<!-- header left menu end -->
+			</div>
+			<div class="ttr-header-right ttr-with-seperator">
+				<!-- header right menu start -->
+				<ul class="ttr-header-navigation">
+					@*<li>
+						<a href="#" class="ttr-material-button ttr-search-toggle"><i class="fa fa-search"></i></a>
+					</li>*@
+					<li>
+						<a href="#" class="ttr-material-button ttr-submenu-toggle"><i class="fa fa-bell"></i></a>
+						<div class="ttr-header-submenu noti-menu">
+							<div class="ttr-notify-header">
+								<span class="ttr-notify-text-top">9 New</span>
+								<span class="ttr-notify-text">User Notifications</span>
+							</div>
+							<div class="noti-box-list">
+								<ul>
+									<li>
+										<span class="notification-icon dashbg-gray">
+											<i class="fa fa-check"></i>
+										</span>
+										<span class="notification-text">
+											<span>Sneha Jogi</span> sent you a message.
+										</span>
+										<span class="notification-time">
+											<a href="#" class="fa fa-close"></a>
+											<span> 02:14</span>
+										</span>
+									</li>
+									<li>
+										<span class="notification-icon dashbg-yellow">
+											<i class="fa fa-shopping-cart"></i>
+										</span>
+										<span class="notification-text">
+											<a href="#">Your order is placed</a> sent you a message.
+										</span>
+										<span class="notification-time">
+											<a href="#" class="fa fa-close"></a>
+											<span> 7 Min</span>
+										</span>
+									</li>
+									<li>
+										<span class="notification-icon dashbg-red">
+											<i class="fa fa-bullhorn"></i>
+										</span>
+										<span class="notification-text">
+											<span>Your item is shipped</span> sent you a message.
+										</span>
+										<span class="notification-time">
+											<a href="#" class="fa fa-close"></a>
+											<span> 2 May</span>
+										</span>
+									</li>
+									<li>
+										<span class="notification-icon dashbg-green">
+											<i class="fa fa-comments-o"></i>
+										</span>
+										<span class="notification-text">
+											<a href="#">Sneha Jogi</a> sent you a message.
+										</span>
+										<span class="notification-time">
+											<a href="#" class="fa fa-close"></a>
+											<span> 14 July</span>
+										</span>
+									</li>
+									<li>
+										<span class="notification-icon dashbg-primary">
+											<i class="fa fa-file-word-o"></i>
+										</span>
+										<span class="notification-text">
+											<span>Sneha Jogi</span> sent you a message.
+										</span>
+										<span class="notification-time">
+											<a href="#" class="fa fa-close"></a>
+											<span> 15 Min</span>
+										</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#" class="ttr-material-button ttr-submenu-toggle"><span class="ttr-user-avatar"><img alt="" src="~/admin/images/testimonials/pic3.jpg" width="32" height="32"></span></a>
+						<div class="ttr-header-submenu">
+							<ul>
+								<li><a href="user-profile.html">My profile</a></li>
+								<li><a href="list-view-calendar.html">Activity</a></li>
+								<li><a href="mailbox.html">Messages</a></li>
+								<li><a href="../login.html">Logout</a></li>
+							</ul>
+						</div>
+					</li>
+					
+					
+				</ul>
+				<!-- header right menu end -->
+			</div>
+			@*<!--header search panel start -->
+			<div class="ttr-search-bar">
+				<form class="ttr-search-form">
+					<div class="ttr-search-input-wrapper">
+						<input type="text" name="qq" placeholder="search something..." class="ttr-search-input">
+						<button type="submit" name="search" class="ttr-search-submit"><i class="ti-arrow-right"></i></button>
+					</div>
+					<span class="ttr-search-close ttr-search-toggle">
+						<i class="ti-close"></i>
+					</span>
+				</form>
+			</div>
+			<!--header search panel end -->*@
+		</div>
+	</header>
+
+	<
+	<!-- Left sidebar menu end -->
+	<div class="container">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
+	<!-- Footer END ==== -->
+	@*<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>*@
+	<!-- External JavaScripts -->
+	<script src="~/js/jquery.min.js"></script>
+	<script src="~/vendors/bootstrap/js/popper.min.js"></script>
+	<script src="~/vendors/bootstrap/js/bootstrap.min.js"></script>
+	<script src="~/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+	<script src="~/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
+	<script src="~/vendors/magnific-popup/magnific-popup.js"></script>
+	<script src="~/vendors/counter/waypoints-min.js"></script>
+	<script src="~/vendors/counter/counterup.min.js"></script>
+	<script src="~/vendors/imagesloaded/imagesloaded.js"></script>
+	<script src="~/vendors/masonry/masonry.js"></script>
+	<script src="~/vendors/masonry/filter.js"></script>
+	<script src="~/vendors/owl-carousel/owl.carousel.js"></script>
+	<script src="~/js/functions.js"></script>
+	<script src="~/js/contact.js"></script>
+	<script src='~/vendors/switcher/switcher.js'></script>
+	<!-- Revolution JavaScripts Files -->
+	<script src="~/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script src="~/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+	<script src="~/vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	<script src="~/vendors/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script src="~/vendors/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script src="~/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script src="~/vendors/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+	<script src="~/vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script src="~/vendors/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script src="~/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script src="~/vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+	<script>
+		jQuery(document).ready(function () {
+			var ttrevapi;
+			var tpj = jQuery;
+			if (tpj("#rev_slider_486_1").revolution == undefined) {
+				revslider_showDoubleJqueryError("#rev_slider_486_1");
+			} else {
+				ttrevapi = tpj("#rev_slider_486_1").show().revolution({
+					sliderType: "standard",
+					jsFileLocation: "assets/vendors/revolution/js/",
+					sliderLayout: "fullwidth",
+					dottedOverlay: "none",
+					delay: 9000,
+					navigation: {
+						keyboardNavigation: "on",
+						keyboard_direction: "horizontal",
+						mouseScrollNavigation: "off",
+						mouseScrollReverse: "default",
+						onHoverStop: "on",
+						touch: {
+							touchenabled: "on",
+							swipe_threshold: 75,
+							swipe_min_touches: 1,
+							swipe_direction: "horizontal",
+							drag_block_vertical: false
+						}
+						,
+						arrows: {
+							style: "uranus",
+							enable: true,
+							hide_onmobile: false,
+							hide_onleave: false,
+							tmp: '',
+							left: {
+								h_align: "left",
+								v_align: "center",
+								h_offset: 10,
+								v_offset: 0
+							},
+							right: {
+								h_align: "right",
+								v_align: "center",
+								h_offset: 10,
+								v_offset: 0
+							}
+						},
+
+					},
+					viewPort: {
+						enable: true,
+						outof: "pause",
+						visible_area: "80%",
+						presize: false
+					},
+					responsiveLevels: [1240, 1024, 778, 480],
+					visibilityLevels: [1240, 1024, 778, 480],
+					gridwidth: [1240, 1024, 778, 480],
+					gridheight: [768, 600, 600, 600],
+					lazyType: "none",
+					parallax: {
+						type: "scroll",
+						origo: "enterpoint",
+						speed: 400,
+						levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 46, 47, 48, 49, 50, 55],
+						type: "scroll",
+					},
+					shadow: 0,
+					spinner: "off",
+					stopLoop: "off",
+					stopAfterLoops: -1,
+					stopAtSlide: -1,
+					shuffle: "off",
+					autoHeight: "off",
+					hideThumbsOnMobile: "off",
+					hideSliderAtLimit: 0,
+					hideCaptionAtLimit: 0,
+					hideAllCaptionAtLilmit: 0,
+					debugMode: false,
+					fallbacks: {
+						simplifyAll: "off",
+						nextSlideOnWindowFocus: "off",
+						disableFocusListener: false,
+					}
+				});
+			}
+		});
+	</script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
