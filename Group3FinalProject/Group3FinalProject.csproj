@@ -8,11 +8,57 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Shared\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\Index.cshtml" />
+    <None Include="wwwroot\images\flag\united-kingdom.svg" />
+    <None Include="wwwroot\images\flag\united-states-of-america.svg" />
+    <None Include="wwwroot\js\contact.js" />
+    <None Include="wwwroot\js\functions.js" />
+    <None Include="wwwroot\js\jquery.min.js" />
+    <None Include="wwwroot\js\jquery.scroller.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\vendors\bootstrap-select\bootstrap-select.min.js" />
+    <None Include="wwwroot\vendors\bootstrap-touchspin\jquery.bootstrap-touchspin.js" />
+    <None Include="wwwroot\vendors\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\vendors\bootstrap\js\popper.min.js" />
+    <None Include="wwwroot\vendors\counter\counterup.min.js" />
+    <None Include="wwwroot\vendors\counter\waypoints-min.js" />
+    <None Include="wwwroot\vendors\fontawesome\fonts\fontawesome-webfont3e6e.svg" />
+    <None Include="wwwroot\vendors\fontawesome\fonts\fontawesome-webfont3e6e.woff2" />
+    <None Include="wwwroot\vendors\imagesloaded\imagesloaded.js" />
+    <None Include="wwwroot\vendors\magnific-popup\magnific-popup.js" />
+    <None Include="wwwroot\vendors\masonry\filter.js" />
+    <None Include="wwwroot\vendors\masonry\masonry.js" />
+    <None Include="wwwroot\vendors\owl-carousel\owl.carousel.js" />
+    <None Include="wwwroot\vendors\revolution\fonts\revicons\revicons90c6.svg" />
+    <None Include="wwwroot\vendors\revolution\js\extensions\revolution.extension.actions.min.js" />
+    <None Include="wwwroot\vendors\revolution\js\extensions\revolution.extension.carousel.min.js" />
+    <None Include="wwwroot\vendors\revolution\js\extensions\revolution.extension.kenburn.min.js" />
+    <None Include="wwwroot\vendors\revolution\js\extensions\revolution.extension.layeranimation.min.js" />
+    <None Include="wwwroot\vendors\revolution\js\extensions\revolution.extension.migration.min.js" />
+    <None Include="wwwroot\vendors\revolution\js\extensions\revolution.extension.navigation.min.js" />
+    <None Include="wwwroot\vendors\revolution\js\extensions\revolution.extension.parallax.min.js" />
+    <None Include="wwwroot\vendors\revolution\js\extensions\revolution.extension.slideanims.min.js" />
+    <None Include="wwwroot\vendors\revolution\js\extensions\revolution.extension.video.min.js" />
+    <None Include="wwwroot\vendors\revolution\js\jquery.themepunch.revolution.min.js" />
+    <None Include="wwwroot\vendors\revolution\js\jquery.themepunch.tools.min.js" />
+    <None Include="wwwroot\vendors\switcher\switcher.js" />
+    <None Include="wwwroot\vendors\themify\fonts\themify9f24.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.16" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\main-slider\" />
   </ItemGroup>
 
 </Project>
