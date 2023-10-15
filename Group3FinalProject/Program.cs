@@ -1,4 +1,5 @@
 using Group3FinalProject.Data;
+using Group3FinalProject.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,13 +11,32 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
-builder.Services.AddControllersWithViews();
-
 builder.Services.ConfigureApplicationCookie(options => options.LoginPath = "/Home/Login");
 
+builder.Services.AddDefaultIdentity<IdentityUser>(
+	options =>
+	options.SignIn.RequireConfirmedAccount = false
+	)
+	.AddRoles<IdentityRole>()
+	.AddEntityFrameworkStores<ApplicationDbContext>();
+
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+	var dbContext = scope.ServiceProvider;
+	try
+	{
+
+		UserRoleInit.InitAsync(dbContext).Wait();
+	}
+	catch (Exception ex)
+	{
+		var logger = dbContext.GetRequiredService<ILogger<Program>>();
+		logger.LogError(ex, "An error occured while attempting to seed the database");
+	}
+
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
