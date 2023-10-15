@@ -6,6 +6,7 @@ namespace Group3FinalProject.Controllers
 	{
 		public IActionResult Courses()
 		{
+
 			return View();
 		}
 		public IActionResult CoursesDetails()
