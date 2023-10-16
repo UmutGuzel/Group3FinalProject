@@ -5,7 +5,8 @@ namespace Group3FinalProject.Models
 {
 	public class Assignment
 	{
-		public int AssignmentId { get; set; }
+        [Key]
+        public int AssignmentId { get; set; }
 		[MaxLength(150)]
 		public string Title { get; set; }
 		[MaxLength(500)]

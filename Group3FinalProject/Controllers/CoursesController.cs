@@ -22,7 +22,7 @@ namespace Group3FinalProject.Controllers
         // GET: Courses
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Courses.Include(c => c.Category).Include(c => c.User);
+            var applicationDbContext = _context.Courses.Include(c => c.Category);
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -36,7 +36,6 @@ namespace Group3FinalProject.Controllers
 
             var course = await _context.Courses
                 .Include(c => c.Category)
-                .Include(c => c.User)
                 .FirstOrDefaultAsync(m => m.CourseId == id);
             if (course == null)
             {
@@ -49,8 +48,7 @@ namespace Group3FinalProject.Controllers
         // GET: Courses/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId");
-            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId");
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "Name");
             return View();
         }
 
@@ -59,7 +57,7 @@ namespace Group3FinalProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CourseId,Title,Description,EnrollmentCount,ImageUrl,CategoryId,UserId")] Course course)
+        public async Task<IActionResult> Create([Bind("CourseId,Title,Description,EnrollmentCount,ImageUrl,CategoryId")] Course course)
         {
             if (ModelState.IsValid)
             {
@@ -67,8 +65,7 @@ namespace Group3FinalProject.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", course.CategoryId);
-            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId", course.UserId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", course.CategoryId);
             return View(course);
         }
 
@@ -85,8 +82,7 @@ namespace Group3FinalProject.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", course.CategoryId);
-            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId", course.UserId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "Name", course.CategoryId);
             return View(course);
         }
 
@@ -95,7 +91,7 @@ namespace Group3FinalProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CourseId,Title,Description,EnrollmentCount,ImageUrl,CategoryId,UserId")] Course course)
+        public async Task<IActionResult> Edit(int id, [Bind("CourseId,Title,Description,EnrollmentCount,ImageUrl,CategoryId")] Course course)
         {
             if (id != course.CourseId)
             {
@@ -123,7 +119,6 @@ namespace Group3FinalProject.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", course.CategoryId);
-            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId", course.UserId);
             return View(course);
         }
 
@@ -137,7 +132,6 @@ namespace Group3FinalProject.Controllers
 
             var course = await _context.Courses
                 .Include(c => c.Category)
-                .Include(c => c.User)
                 .FirstOrDefaultAsync(m => m.CourseId == id);
             if (course == null)
             {

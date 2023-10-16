@@ -1,4 +1,6 @@
 ﻿<!--Main container start -->
+@model IEnumerable<Course>
+
 <main class="ttr-wrapper">
 	<div class="container-fluid">
 		<div class="db-breadcrumb">
@@ -16,6 +18,48 @@
 						<h4>Your Courses</h4>
 					</div>
 					<div class="widget-inner">
+						@foreach (var item in Model)
+						{
+							<div class="card-courses-list admin-courses">
+								<div class="card-courses-media">
+									<img src="@item.ImageUrl" alt="" />
+								</div>
+								<div class="card-courses-full-dec">
+									<div class="card-courses-title">
+										<h4>@item.Title</h4>
+									</div>
+									<div class="card-courses-list-bx">
+										<ul class="card-courses-view">
+											<li class="card-courses-categories">
+												<h5>Category</h5>
+												<h4>@item.CategoryId</h4>
+											</li>
+											<li class="card-courses-review">
+												<h5>3 Review</h5>
+												<ul class="cours-star">
+													<li class="active"><i class="fa fa-star"></i></li>
+													<li class="active"><i class="fa fa-star"></i></li>
+													<li class="active"><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+									<div class="row card-courses-dec">
+										<div class="col-md-12">
+											<h6 class="m-b10">Course Description</h6>
+											<p>@item.Description</p>
+										</div>
+										<div class="col-md-12">
+											<a asp-controller="Courses" asp-action="Edit" asp-route-id="@item.CourseId" class="btn yellow outline radius-xl ">Edit</a>
+											@*<a asp-controller="Courses" asp-action="Index" class="btn yellow outline radius-xl ">Manage</a>*@
+										</div>
+									</div>
+
+								</div>
+							</div>
+						}
 						<div class="card-courses-list admin-courses">
 							<div class="card-courses-media">
 								<img src="assets/images/courses/pic1.jpg" alt="" />
@@ -71,7 +115,7 @@
 
 							</div>
 						</div>
-						<div class="card-courses-list admin-courses">
+						@*<div class="card-courses-list admin-courses">
 							<div class="card-courses-media">
 								<img src="assets/images/courses/pic2.jpg" alt="" />
 							</div>
@@ -235,7 +279,7 @@
 								</div>
 
 							</div>
-						</div>
+						</div>*@
 					</div>
 				</div>
 			</div>

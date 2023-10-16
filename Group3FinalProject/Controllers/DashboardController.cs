@@ -1,17 +1,27 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Group3FinalProject.Data;
+using Group3FinalProject.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Group3FinalProject.Controllers
 {
 	public class DashboardController : Controller
 	{
-		public IActionResult Index()
+        private readonly ApplicationDbContext _context;
+
+        public DashboardController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        public IActionResult Index()
 		{
 			return View();
 		}
 
 		public IActionResult Courses()
 		{
-			return View();
+			List<Course> courses= _context.Courses.ToList<Course>();
+			return View(courses);
 		}
 		public IActionResult TeacherProfile()
 		{

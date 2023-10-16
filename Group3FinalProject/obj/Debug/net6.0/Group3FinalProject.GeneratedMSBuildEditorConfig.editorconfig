@@ -20,6 +20,26 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Assignments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Assignments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Assignments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Assignments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Assignments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,6 +106,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Dashboard/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Enrollments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Enrollments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Enrollments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Enrollments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Enrollments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Umut/Desktop/Elev8Project/Group3FinalProject/Group3FinalProject/Views/Home/Index.cshtml]

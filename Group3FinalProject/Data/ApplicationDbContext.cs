@@ -10,9 +10,7 @@ namespace Group3FinalProject.Data
             : base(options)
         {
         }
-        public DbSet<User> Users { get; set; }
-        public DbSet<UserRole> UserRoles { get; set; }
-		public DbSet<Role> Roles { get; set; }
+        
 		public DbSet<Course> Courses { get; set; }
 		public DbSet<Enrollment> Enrollments { get; set; }
 		public DbSet<Assignment> Assignments { get; set; }
