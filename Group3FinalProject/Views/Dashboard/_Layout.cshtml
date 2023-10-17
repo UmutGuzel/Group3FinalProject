@@ -66,6 +66,12 @@
 					<li>
 						<a asp-controller="Assignments" asp-action="Create" class="ttr-material-button ttr-submenu-toggle">ADD ASSIGNMENT</a>
 					</li>
+					@if (User.IsInRole("Admin"))
+					{
+					<li>
+						<a asp-controller="Dashboard" asp-action="GiveRole" class="ttr-material-button ttr-submenu-toggle">GIVE ROLE</a>
+					</li>
+					}
 
 				</ul>
 				<!-- header left menu end -->
