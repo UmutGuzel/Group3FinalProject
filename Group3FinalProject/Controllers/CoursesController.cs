@@ -26,6 +26,11 @@ namespace Group3FinalProject.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
+        public async Task<IActionResult> CoursesDetails()
+        {
+            return View();
+        }
+
         // GET: Courses/Details/5
         public async Task<IActionResult> Details(int? id)
         {
