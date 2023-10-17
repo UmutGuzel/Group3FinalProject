@@ -22,9 +22,11 @@ namespace Group3FinalProject.Controllers
         // GET: Categories
         public async Task<IActionResult> Index()
         {
-              return _context.Categories != null ? 
+            var a = _context.Users;
+            return _context.Categories != null ? 
                           View(await _context.Categories.ToListAsync()) :
                           Problem("Entity set 'ApplicationDbContext.Categories'  is null.");
+            
         }
 
         // GET: Categories/Details/5
