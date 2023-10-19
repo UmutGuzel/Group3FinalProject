@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Group3FinalProject.Data;
 using Group3FinalProject.Models;
+using System.Security.Claims;
+using NuGet.Versioning;
 
 namespace Group3FinalProject.Controllers
 {
@@ -26,9 +28,10 @@ namespace Group3FinalProject.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
-        public async Task<IActionResult> CoursesDetails()
+        public async Task<IActionResult> CoursesDetails(int id)
         {
-            return View();
+            var course = _context.Courses.Include(c => c.Category).Where(x => x.CourseId == id).First();
+            return View(course);
         }
 
         // GET: Courses/Details/5
@@ -54,6 +57,8 @@ namespace Group3FinalProject.Controllers
         public IActionResult Create()
         {
             ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "Name");
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "UserName");
+            ViewData["CurrentUserId"] = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             return View();
         }
 
@@ -62,15 +67,16 @@ namespace Group3FinalProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CourseId,Title,Description,EnrollmentCount,ImageUrl,CategoryId")] Course course)
+        public async Task<IActionResult> Create([Bind("CourseId,Title,Description,EnrollmentCount,ImageUrl,CategoryId,UserId")] Course course)
         {
-            if (ModelState.IsValid)
-            {
+            course.UserId = course.UserId.TrimEnd('/');
+            
                 _context.Add(course);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", course.CategoryId);
+            
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", course.CategoryId);
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", course.UserId);
             return View(course);
         }
 

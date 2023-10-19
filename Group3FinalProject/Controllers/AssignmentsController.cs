@@ -7,20 +7,24 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Group3FinalProject.Data;
 using Group3FinalProject.Models;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Identity;
 
 namespace Group3FinalProject.Controllers
 {
     public class AssignmentsController : Controller
     {
         private readonly ApplicationDbContext _context;
+		private readonly UserManager<IdentityUser> _userManager;
 
-        public AssignmentsController(ApplicationDbContext context)
-        {
-            _context = context;
-        }
+		public AssignmentsController(ApplicationDbContext context, UserManager<IdentityUser> userManage)
+		{
+			_userManager = userManage;
+			_context = context;
+		}
 
-        // GET: Assignments
-        public async Task<IActionResult> Index()
+		// GET: Assignments
+		public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Assignments.Include(a => a.Course);
             return View(await applicationDbContext.ToListAsync());
@@ -46,9 +50,17 @@ namespace Group3FinalProject.Controllers
         }
 
         // GET: Assignments/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            ViewData["CourseId"] = new SelectList(_context.Courses, "CourseId", "Title");
+			var id = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (await _userManager.IsInRoleAsync(await _userManager.FindByIdAsync(id), "Admin"))
+            {
+                ViewData["CourseId"] = new SelectList(_context.Courses, "CourseId", "Title");
+            }else
+            {
+                ViewData["CourseId"] = new SelectList(_context.Courses.Where(x => x.UserId == id), "CourseId", "Title");
+
+			}
             return View();
         }
 

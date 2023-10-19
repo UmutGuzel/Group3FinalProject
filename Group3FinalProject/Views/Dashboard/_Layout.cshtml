@@ -54,11 +54,14 @@
 						<a asp-controller="Home" asp-action="Index" class="ttr-material-button ttr-submenu-toggle">HOME</a>
 					</li>
 					<li>
-						<a asp-controller="Dashboard" asp-action="Courses" class="ttr-material-button ttr-submenu-toggle">COURSES</a>
+						<a asp-controller="Dashboard" asp-action="Courses"class="ttr-material-button ttr-submenu-toggle">COURSES</a>
 					</li>
+					@if (User.IsInRole("Admin"))
+					{
 					<li>
 						<a asp-controller="Categories" asp-action="Create" class="ttr-material-button ttr-submenu-toggle">ADD CATEGORY</a>
 					</li>
+					}
 					<li>
 						<a asp-controller="Courses" asp-action="Create" class="ttr-material-button ttr-submenu-toggle">ADD COURSE</a>
 					</li>

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Group3FinalProject.Models
@@ -19,6 +20,9 @@ namespace Group3FinalProject.Models
 		public int? CategoryId { get; set; }
 		public Category? Category { get; set; }
 
+		[ForeignKey("AspNetUsers")]
+		public string UserId { get; set; }
+		public IdentityUser User { get; set; }
 		
 
 		public List<Enrollment>? Enrollment { get; set; }
