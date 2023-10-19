@@ -69,7 +69,7 @@
 							<li class="add-mega-menu">
 								<a asp-controller="Courses" asp-action="Index">Courses</a>
 							</li>
-							@if (User.IsInRole("Admin"))
+							@if (User.IsInRole("Admin") || User.IsInRole("Instructor"))
 							{
 								<li class="nav-dashboard">
 									<a asp-controller="Dashboard" asp-action="Index">Dashboard </a>
